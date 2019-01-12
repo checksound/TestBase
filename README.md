@@ -21,7 +21,7 @@ public class Persona {
 
 ```
 
-Se eeguo in un metodo (ad esempio il `main`) il seguente codice:
+Se eseguo in un metodo (ad esempio il `main`) il seguente codice:
 
 ```java
     // domanda base
@@ -69,7 +69,7 @@ Fate vedere con disegno come le reference sono cambiate:
 
 ```
 
-Ora cambio il valore dell'attibuto *nome* di `persA`:
+Ora eseguo il seguente assegnamento:
 
 ```java
 persA.nome = "Giuseppe";
@@ -88,7 +88,7 @@ Sempre con la classe Persona. abbiamo il seguente codice:
 ```
 
 Domanda: 
-il confronto ```persA == persB``` è TRUE o FALSE?
+il confronto `persA == persB` è TRUE o FALSE?
 
 Ora eseguiamo il seguente assegnamento:
 
@@ -96,9 +96,11 @@ Ora eseguiamo il seguente assegnamento:
 Persona persC = persA;
 ```
 
-Domanda:
-Ora il confronto ```persC == persA``` è TRUE o FALSE?  
-e 
+Domanda:  
+Ora il confronto ```persC == persA``` è TRUE o FALSE?
+
+e
+
 `persC.equals(persA)` ritorna TRUE o FALSE?  
 
 
