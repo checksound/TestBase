@@ -25,9 +25,9 @@ Se eseguo in un metodo (ad esempio il `main`) il seguente codice:
 
 ```java
     
-	Persona p = new Persona("Marco", 7);
+Persona p = new Persona("Marco", 7);
 	
-    int anno = 2011;
+int anno = 2011;
 ```
 
 Disegnare lo stato della memoria facendo vedere differenza tra i **tipi primitivi** e i **tipi reference**.
@@ -44,9 +44,9 @@ Disegnare lo stato della memoria facendo vedere differenza tra i **tipi primitiv
 Abbiamo due oggetti `persA` e `persB` della classe `Persona`:
 
 ```java
-    Persona persA = new Persona("A", 5);
+Persona persA = new Persona("A", 5);
 		
-    Persona persB = new Persona("B", 6);
+Persona persB = new Persona("B", 6);
 ```
 
 Fate vedere con disegno situazione delle reference:
@@ -84,9 +84,9 @@ Domanda: quanto vale `persB.nome` ?
 Sempre con la classe `Persona` abbiamo il seguente codice:
 
 ```java      
-    Persona persA = new Persona("A", 5);
+Persona persA = new Persona("A", 5);
 	
-	Persona persB = new Persona("A", 5);
+Persona persB = new Persona("A", 5);
 ```
 
 Domanda: 
@@ -164,7 +164,7 @@ Scrivete l'output del programma:
 
 Data la funzione:
 
-```
+```java
     static void modificaTipoPrimitivo(int value) {
 		value++; // incremento value di 1
 		System.out.println("modificaTipoPrimitivo VALUE: " + value);
