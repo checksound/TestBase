@@ -24,15 +24,17 @@ public class Persona {
 Se eseguo in un metodo (ad esempio il `main`) il seguente codice:
 
 ```java
-    // domanda base
+    
 	Persona p = new Persona("Marco", 7);
-		
+	
     int anno = 2011;
 ```
 
 Disegnare lo stato della memoria facendo vedere differenza tra i **tipi primitivi** e i **tipi reference**.
 
 ```
+
+
 
 
 ```
@@ -75,20 +77,20 @@ Ora eseguo il seguente assegnamento:
 persA.nome = "Giuseppe";
 ```
 
-Quanto vale `persB.nome` ?
+Domanda: quanto vale `persB.nome` ?
 
 ## 3. Domanda: Verifica ugualianza per riferimento vs ugualianza per valore
 
-Sempre con la classe Persona. abbiamo il seguente codice:
+Sempre con la classe `Persona` abbiamo il seguente codice:
 
 ```java      
     Persona persA = new Persona("A", 5);
-		
+	
 	Persona persB = new Persona("A", 5);
 ```
 
 Domanda: 
-il confronto `persA == persB` è TRUE o FALSE?
+* il confronto `persA == persB` è TRUE o FALSE? **RISPOSTA:**
 
 Ora eseguiamo il seguente assegnamento:
 
@@ -97,18 +99,20 @@ Persona persC = persA;
 ```
 
 Domanda:  
-Ora il confronto ```persC == persA``` è TRUE o FALSE?
-
-e
-
-`persC.equals(persA)` ritorna TRUE o FALSE?  
+* ora il confronto ```persC == persA``` è TRUE o FALSE? **RISPOSTA:**
+* `persC.equals(persA)` ritorna TRUE o FALSE?  **RISPOSTA:**
 
 
 **DOMANDA AVANZATA:**
 
 `persB.equals(persA)` ritorna FALSE, datene la spiegazione. 
 
-Cosa dovrei fare perchè ritorni TRUE e cioè esegua il contronto per valore?
+Cosa dovrei fare perchè ritorni TRUE e cioè esegua il contronto per valore? Spiega con tue parole e scrivendo il codice (anche se non perfetto, basta che sia chiaro il concetto):
+
+```
+
+
+```
 
 ## 4. Domanda: Tipi wrapper di tipi primitivi e stringhe
 
@@ -147,7 +151,14 @@ Dato il seguente codice:
     }
 ```
 
-Scrivete l'output.
+Scrivete l'output del programma:
+
+```
+
+
+
+
+```
 
 ## 5. Domanda: passaggio dei valori di tipo primitivo e reference
 
@@ -236,6 +247,7 @@ eseguendo il codice:
 Scrivere l'output:
 
 ```
+
 
 
 ```
