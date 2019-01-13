@@ -159,10 +159,10 @@ Scrivete l'output del programma:
 
 | CONDIZIONE   |  OUTPUT                              |
 |------|------------------------------------|
-|aS == bS|                   |
-|`aS.equals(bS)`|                     |
-|`a1 == a2` |     |
-|`a1.equals(a2)` |    |
+| `aS == bS` |                   |
+| `aS.equals(bS)` |                     |
+| `a1 == a2` |     |
+| `a1.equals(a2)` |    |
 
 ## 5. Domanda: passaggio dei valori di tipo primitivo e reference
 
