@@ -49,7 +49,7 @@ Persona persA = new Persona("A", 5);
 Persona persB = new Persona("B", 6);
 ```
 
-Fate vedere con disegno situazione delle reference:
+Fate vedere con disegno la situazione in memoria delle due variabili di tipo reference:
 
 ```
 
@@ -99,11 +99,11 @@ Persona persC = persA;
 ```
 
 Domanda:  
-* ora il confronto ```persC == persA``` è TRUE o FALSE? **RISPOSTA:**
-* `persC.equals(persA)` ritorna TRUE o FALSE?  **RISPOSTA:**
+* ora il confronto ```persC == persA``` è TRUE o FALSE? **RISPOSTA e motivazione:**
+* `persC.equals(persA)` ritorna TRUE o FALSE?  **RISPOSTA e motivazione:**
 
 
-**DOMANDA AVANZATA:**
+**DOMANDA AVANZATA: (Facoltativa)**
 
 `persB.equals(persA)` ritorna FALSE, datene la spiegazione. 
 
@@ -123,12 +123,14 @@ Dato il seguente codice:
 		
     String bS = new String("Pippo");
     
+    // 1
     if(aS == bS) {
         System.out.println("aS == bS");
     } else {
         System.out.println("aS NOT == bS");
     }
     
+    // 2
     if(aS.equals(bS)) {
         System.out.println("aS equals bS");
     } else {
@@ -138,12 +140,14 @@ Dato il seguente codice:
     Integer a1 = new Integer(5);
     Integer a2 = new Integer(5);
     
+    // 3
     if(a1 == a2) {
         System.out.println("a1 == b2");
     } else {
         System.out.println("a1 NOT == b2");
     }
     
+    // 4
     if(a1.equals(a2)) {
         System.out.println("a1 equals b2");
     } else {
@@ -151,14 +155,14 @@ Dato il seguente codice:
     }
 ```
 
-Scrivete l'output del programma:
+Scrivete l'output del programma:  
+| CONDIZIONE   |  OUTPUT                              |
+|------|------------------------------------| 
+|`aS == bS`|:                   |
+|`aS.equals(bS)`|:                     |
+|`a1 == a2` |:     |
+|`a1.equals(a2)` |:    |
 
-```
-
-
-
-
-```
 
 ## 5. Domanda: passaggio dei valori di tipo primitivo e reference
 
@@ -178,7 +182,7 @@ int val = 8;
 modificaTipoPrimitivo(val);
 System.out.println("dopo funzione VALUE: " + val);
 ```
-Scrivere l'output:
+Scrivere l'output (all'interno del metodo e fuori dal metodo):
 
 ```
 
