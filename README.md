@@ -101,11 +101,9 @@ Persona persC = persA;
 Domanda:  
 * ora il confronto ```persC == persA``` è TRUE o FALSE? **RISPOSTA e motivazione:**
 * `persC.equals(persA)` ritorna TRUE o FALSE?  **RISPOSTA e motivazione:**
+* `persB.equals(persA)` ritorna FALSE, datene la spiegazione:
 
 
-**DOMANDA AVANZATA: (Facoltativa)**
-
-`persB.equals(persA)` ritorna FALSE, datene la spiegazione. 
 
 Cosa dovrei fare perchè ritorni TRUE e cioè esegua il confronto per valore? Spiega con tue parole e/o scrivendo il codice (anche se non perfetto, basta che sia chiaro il concetto):
 
