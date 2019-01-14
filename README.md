@@ -140,16 +140,16 @@ Dato il seguente codice:
     
     // 3
     if(a1 == a2) {
-        System.out.println("a1 == b2");
+        System.out.println("a1 == a2");
     } else {
-        System.out.println("a1 NOT == b2");
+        System.out.println("a1 NOT == a2");
     }
     
     // 4
     if(a1.equals(a2)) {
-        System.out.println("a1 equals b2");
+        System.out.println("a1 equals a2");
     } else {
-        System.out.println("a1 NOT equals b2");
+        System.out.println("a1 NOT equals a2");
     }
 ```
 
