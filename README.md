@@ -257,4 +257,4 @@ Scrivere l'output:
 
 ### NOTA:
 
-Risposta alla domanda 3° perché venga eseguito il contronto per valore su oggetti di tipo persona, è eseguire l'overrdide del metodo equals, esempio la classe `testbase.PersonaEqualsOverride`. In `testbase.DomandaTreTest` c'è il test.
+Risposta alla domanda 3°, perché venga eseguito il confronto per valore su oggetti e non semplicemente per reference, è eseguire l'overrdide del metodo `equals`: esempio la classe `testbase.PersonaEqualsOverride` dove viene eseguito l'overrdide di **equals** per fare il contollo sul campo `nome` ed `eta` dell'oggetto. In `testbase.DomandaTreTest` c'è il test.
