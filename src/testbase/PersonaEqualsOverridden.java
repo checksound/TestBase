@@ -8,12 +8,12 @@ package testbase;
  * @author cam
  *
  */
-public class Persona2 {
+public class PersonaEqualsOverridden {
 
 	private final String nome;
 	private final int eta;
 	
-	public Persona2(String nome, int eta) {
+	public PersonaEqualsOverridden(String nome, int eta) {
 		this.nome = nome;
 		this.eta = eta;
 	}
@@ -35,7 +35,7 @@ public class Persona2 {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Persona2 other = (Persona2) obj;
+		PersonaEqualsOverridden other = (PersonaEqualsOverridden) obj;
 		if (eta != other.eta)
 			return false;
 		if (nome == null) {

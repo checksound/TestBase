@@ -253,3 +253,8 @@ Scrivere l'output:
 
 
 ```
+----------------------------------------------------------
+
+### NOTA:
+
+Risposta alla domanda 3° perché venga eseguito il contronto per valore su oggetti di tipo persona, è eseguire l'overrdide del metodo equals, esempio la classe `testbase.PersonaEqualsOverride`. In `testbase.DomandaTreTest` c'è il test.
